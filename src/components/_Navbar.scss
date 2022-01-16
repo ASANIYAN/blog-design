@@ -1,0 +1,86 @@
+.nav-mobile {
+    width: 100%;
+    max-width: 1200px;
+}
+.nav-mobile-content-hold {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-mobile, .logo-hidden-mobile {
+    width: 50px;
+    height: 60px;
+}
+
+.bars, .close {
+    cursor: pointer;
+}
+
+.nav-hidden {
+    transform: translateX(-2500px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    background-color: $white;
+    transition: all 0.5s ease;
+}
+
+.close {
+    transform: scale(1.5);
+}
+
+.active-mobile {
+    color: black !important;
+}
+
+.active {
+    color: $nav-active !important;
+}
+
+.nav-hidden-texts {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.nav-hidden-texts p {
+    margin-top: 30px;
+    color: $nav-txtColor;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.nav-texts p {
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    color: $nav-txtColor;
+    text-transform: uppercase;
+}
+
+nav p:hover {
+    color: $nav-hover;
+}
+
+@media only screen and (min-device-width: 1024px) {
+    .nav-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 1200px) {
+    .nav-texts p {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+
