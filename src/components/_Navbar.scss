@@ -45,22 +45,25 @@
     text-align: center;
 }
 
-.nav-hidden-texts p {
+.nav-hidden-texts a {
+    display: block;
     margin-top: 30px;
     color: $nav-txtColor;
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-.nav-texts p {
+.nav-texts a {
     padding-left: 13px;
     padding-right: 13px;
     cursor: pointer;
     color: $nav-txtColor;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-nav p:hover {
+nav a:hover {
     color: $nav-hover;
 }
 
@@ -77,7 +80,7 @@ nav p:hover {
 }
 
 @media only screen and (min-device-width: 1200px) {
-    .nav-texts p {
+    .nav-texts a {
         padding-left: 18px;
         padding-right: 18px;
     }

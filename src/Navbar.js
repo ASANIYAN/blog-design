@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
 
 
@@ -39,14 +41,14 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="nav-hidden-texts mt-4">
-                            <p>Home</p>
-                            <p>Challenge</p>
-                            <p>Learn Design</p>
-                            <p  className="active-mobile">Blog</p>
-                            <p>Playlist</p>
-                            <p>Bookmarks</p>
-                            <p>FAQ</p>
-                            <p>Elements</p>
+                            <Link>Home</Link>
+                            <Link>Challenge</Link>
+                            <Link>Learn Design</Link>
+                            <Link className="active-mobile">Blog</Link>
+                            <Link>Playlist</Link>
+                            <Link>Bookmarks</Link>
+                            <Link>FAQ</Link>
+                            <Link>Elements</Link>
                         </div>
                     </div>
 
@@ -60,14 +62,14 @@ const Navbar = () => {
                             <img alt="logo" className="logo-hidden-mobile navbar-brand" src="https://www.dwinawan.com/blog/logoorange.png" />
                         </div>
                         <div className="nav-texts d-flex mt-3">
-                            <p>Home</p>
-                            <p>Challenge</p>
-                            <p>Learn Design</p>
-                            <p  className="active">Blog</p>
-                            <p>Playlist</p>
-                            <p>Bookmarks</p>
-                            <p>FAQ</p>
-                            <p>Elements</p>
+                            <Link>Home</Link>
+                            <Link>Challenge</Link>
+                            <Link>Learn Design</Link>
+                            <Link className="active">Blog</Link>
+                            <Link>Playlist</Link>
+                            <Link>Bookmarks</Link>
+                            <Link>FAQ</Link>
+                            <Link>Elements</Link>
                         </div>
                     </div>
                 </div>
