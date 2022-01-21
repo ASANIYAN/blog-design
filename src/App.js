@@ -11,6 +11,8 @@ import InRow2item3 from './InRow2item3';
 import InRow3item1 from './InRow3item1';
 import InRow3item2 from './InRow3item2';
 import InRow3item3 from './InRow3item3';
+import SimilarArticles from './SimilarArticles';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -27,23 +29,30 @@ function App() {
             </Route>
             <Route path="/InRow2item1">
               <InRow2item1 />
+              <SimilarArticles />
             </Route>
             <Route path="/InRow2item2">
               <InRow2item2 />
+              <SimilarArticles />
             </Route>
             <Route path="/InRow2item3">
               <InRow2item3 />
+              <SimilarArticles />
             </Route>
             <Route path="/InRow3item1">
               <InRow3item1 />
+              <SimilarArticles />
             </Route>
             <Route path="/InRow3item2">
               <InRow3item2 />
+              <SimilarArticles />
             </Route>
             <Route path="/InRow3item3">
               <InRow3item3 />
+              <SimilarArticles />
             </Route>
           </Switch>
+          <Footer />
         </div>
       </div>
     </Router>

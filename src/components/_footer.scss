@@ -1,0 +1,18 @@
+.footer-texts {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-texts a {
+    cursor: pointer;
+    color: $nav-txtColor;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: $nav-hover;
+}
