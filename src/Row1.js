@@ -9,7 +9,7 @@ const Row1 = () => {
                         <div className="col-md-6 col-sm-12">
                             <p className="date">January 16, 2022</p>
                             <h2 className="sub-heading"> Tentang Creativity Block pada UI designer</h2>
-                            <p className="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis maxime esse illo! Reiciendis fuga ad quibusdam? Esse labore ea itaque ad, error voluptates.</p>
+                            <p className="para mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis maxime esse illo! Reiciendis fuga ad quibusdam? Esse labore ea itaque ad, error voluptates.</p>
                         </div>
                     </div>
                 </div>

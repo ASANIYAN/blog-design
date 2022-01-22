@@ -10,7 +10,7 @@ const SimilarArticles = () => {
                         <div className="col-md-6 col-sm-12 mt-4">
                             <p className="date">January 16, 2022</p>
                             <h4 className="row-headings">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p className="row-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, reiciendis quo, sint ipsa voluptatum, ratione quisquam iusto ut dolores voluptates assumenda possimus numquam facere et pariatur modi voluptate optio similique!</p>
+                            <p className="row-text mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, reiciendis quo, sint ipsa voluptatum, ratione quisquam iusto ut dolores voluptates assumenda possimus numquam facere et pariatur modi voluptate optio similique!</p>
                         </div>
 
                         <div className="col-md-6 col-sm-12 mt-4">
@@ -19,7 +19,7 @@ const SimilarArticles = () => {
                         <div className="col-md-6 col-sm-12 mt-4">
                             <p className="date">January 16, 2022</p>
                             <h4 className="row-headings">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p className="row-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, reiciendis quo, sint ipsa voluptatum, ratione quisquam iusto ut dolores voluptates assumenda possimus numquam facere et pariatur modi voluptate optio similique!</p>
+                            <p className="row-text mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, reiciendis quo, sint ipsa voluptatum, ratione quisquam iusto ut dolores voluptates assumenda possimus numquam facere et pariatur modi voluptate optio similique!</p>
                         </div>
 
                         <div className="col-md-6 col-sm-12 mt-4">
@@ -28,7 +28,7 @@ const SimilarArticles = () => {
                         <div className="col-md-6 col-sm-12 mt-4">
                             <p className="date">January 16, 2022</p>
                             <h4 className="row-headings">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
-                            <p className="row-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, reiciendis quo, sint ipsa voluptatum, ratione quisquam iusto ut dolores voluptates assumenda possimus numquam facere et pariatur modi voluptate optio similique!</p>
+                            <p className="row-text mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, reiciendis quo, sint ipsa voluptatum, ratione quisquam iusto ut dolores voluptates assumenda possimus numquam facere et pariatur modi voluptate optio similique!</p>
                         </div>
 
                     </div>
